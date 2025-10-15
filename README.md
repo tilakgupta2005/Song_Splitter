@@ -9,7 +9,7 @@ AI-powered music stem separator built using **Spleeter by Deezer**, capable of i
 - Librosa, Matplotlib (Audio Analysis)
 - Streamlit (Web Interface)
 
-## 🏗️ Structure
+```## 🏗️ Structure
 song-splitter/
 ├── input/
 ├── outputs/
@@ -20,6 +20,7 @@ song-splitter/
 ├── app.py
 ├── README.md
 ├── requirements.txt
+```
 
 
 ## ▶️ Run Steps
@@ -28,16 +29,20 @@ song-splitter/
 py -3.10 -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-pip install spleeter==2.3.2 
+pip install spleeter==2.3.2
+```
 
+
+```bash
 # Separate stems
 python scripts/splitter.py input/test_clip.mp3
-
+```
+```bash
 # Visualize or evaluate
 python scripts/visualize.py
 python scripts/evaluate.py
-
+```
+```bash
 # (Optional) Launch Web UI
 streamlit run app.py
-                                         
-                                                                                    #
+```
