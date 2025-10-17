@@ -1,5 +1,6 @@
 # 🎵 Song Splitter — End-to-End AI Audio Stem Separation
 
+[https://song-splitter.streamlit.app/](https://song-splitter.streamlit.app/)
 ## 🧠 Overview
 AI-powered music stem separator built using **Spleeter by Deezer**, capable of isolating vocals, drums, bass, and other instruments with minimal system resources.
 
